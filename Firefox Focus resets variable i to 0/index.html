@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8" />
+	<meta name="author" content="Žan Žnidar">
+	<title>Variable i resetting to 0</title>
+	<meta name="description" content="Firefox Focus resets the variable with name i to zero">
+</head> 
+ 
+<body> 
+<button type="button" id="begin">Begin!</button>
+<p id="result">Press the button, wait for an alert to pop up, then press it again.</p>
+<p id="ver">Version FFr2</p>
+<p>When the button above is pressed, a request is sent to developers.mozilla.com. Onprogress, a function r1() is called, which increments the variable <i>i</i> by 1, then alerts its value.</p>
+<p>Apparently, in Firefox Focus on Android it happens that if the name of the variable is <i>i</i>, FFF resets it to 0 each time. By renaming it to something else, for example <i>test</i>, its value increases each time.</p>
+</body>
+
+<script src="runtime"></script>
+</html>
