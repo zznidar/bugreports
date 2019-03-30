@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Iframe - Target for a Link</h2>
+
+<iframe height="300px" width="100%" src="https://google.com" name="iframe_a"></iframe>
+
+<p><a href="chrome-error://webdata" target="iframe_a">Will this crash it?</a></p>
+<p><a href="https://example.com" target="iframe_a">An example</a></p>
+<p><a href="https://github.com" target="iframe_a">github</a></p>
+
+<p>When the target of a link matches the name of an iframe, the link will open in the iframe.</p>
+
+<h2>Now hrefs without iFrame, that is, without target</h2>
+<p><a href="chrome-error://webdata">Will this crash it?</a></p>
+<p><a href="https://example.com">An example</a></p>
+<p><a href="https://github.com">github</a></p>
+
+</body>
+</html>
