@@ -16,11 +16,11 @@ Devices running Android 8 or later
 Devices running Android 7 and lower
 
 ## POC:
-- [apk](/apk/iFramecrasher-debug.3519194.1.apk)
-- [Source files](/www)
+- [apk](https://github.com/zznidar/bugreports/tree/master/Cordova/Crash%20on%20visiting%20chrome-error%20webdata/apk/iFramecrasher-debug.3519194.1.apk)
+- [Source files](https://github.com/zznidar/bugreports/tree/master/Cordova/Crash%20on%20visiting%20chrome-error%20webdata/www)
 
 ## Steps to reproduce
-1. Download [the .apk file](/apk/iFramecrasher-debug.3519194.1.apk) and install it.
+1. Download [the .apk file](https://github.com/zznidar/bugreports/tree/master/Cordova/Crash%20on%20visiting%20chrome-error%20webdata/apk/iFramecrasher-debug.3519194.1.apk) and install it.
 2. Open the app.
 3. Press one of the "*Will this crash it?*" links.
 
