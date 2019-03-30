@@ -5,8 +5,8 @@ An Android app, built with Phonegap, crashes when it is navigated to `chrome-err
 Devices running Android 8 or later
 
 #### Tested devices (affected written in **bold**):
-- **Pocophone f1, Android 8.1.0**
-- **Samsung Galaxy S8+, Android 9**
+- **Pocophone f1, Android 8.1.0** ~ crash
+- **Samsung Galaxy S8+, Android 9** ~ crash
 - Meizu m1 metal, Android 5.1 (Flyme 7.8.7.24 beta)
 - Samsung Galaxy Note 3, Android 5.0
 - Huawei P9, Android 7.0 (EMUI 5.0.3)
